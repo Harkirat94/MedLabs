@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/turquoise_colour" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="175dip"
+        android:layout_height="175dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="22dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/abc_ab_bottom_solid_light_holo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginLeft="40dp"
+        android:text="Name : "
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="160dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:layout_below="@+id/textView1"
+        android:numColumns="auto_fit" >
+        
+        <!-- android:stretchMode="columnWidth"  -->
+    </GridView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="53dp"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

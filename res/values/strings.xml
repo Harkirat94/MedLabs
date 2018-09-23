@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Med Labs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_abc">Abc</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="_signInGoogle">Sign-in With Google</string>
+    <string name="title_activity_lab_details">Lab Details</string>
+    <string name="title_activity_list_view">Search Results</string>
+    <string name="title_activity_download_reports">Download Reports</string>
+    <string name="title_activity_gallery">Reports</string>
+    <string name="title_activity_report_gallery">Reports</string>
+    <string name="title_activity_add_reminder">Create Reminder</string>
+    <string name="title_activity_second">Second Activity</string>
+    <string name="title_activity_all_events">All Reminders</string>
+    <string name="title_activity_picture">Report</string>
+
+</resources>
